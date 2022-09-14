@@ -7,6 +7,7 @@ int main() {
     int z = 4;
     float t = 5 / (1 + powf(y,2));
     float x = 2 * y + 3 * sinh(t) - z;
+    
     printf("%.2f", x); 
 }
 */
@@ -18,6 +19,7 @@ int main() {
     int z = 6;
     float y = t + (2 * (cos(z) / sin(z)));
     float x = (3 * (y * y)) / ((4 * (sin(z) / cos(z))) - (2 * (t * t)));
+    
     printf("%.2f", x);
 }
 */
@@ -62,6 +64,7 @@ int main() {
 
 /* 6
 int main() {
+
 	int z = 1;
 	int t = 2;
 	float y = tan(t) + z;
